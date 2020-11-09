@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "631991679783",
+    "firebase_url": "https://dodohanyang-dc607.firebaseio.com",
+    "project_id": "dodohanyang-dc607",
+    "storage_bucket": "dodohanyang-dc607.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631991679783:android:e85b0317943c2803828702",
+        "android_client_info": {
+          "package_name": "com.dodo.hanyang_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631991679783-0mte6nk81au2levvm5p1h9sbcrlvlou8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGAVAlDQGjxLqBz1qZ7UrKU4ll5FfHFSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631991679783-0mte6nk81au2levvm5p1h9sbcrlvlou8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

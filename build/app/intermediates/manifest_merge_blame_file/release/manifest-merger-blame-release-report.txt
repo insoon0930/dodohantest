@@ -1,0 +1,287 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dodo.hanyang_app"
+4    android:versionCode="4004"
+5    android:versionName="4.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->[:image_picker] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:5-80
+11-->[:image_picker] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->[:image_picker] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:5-81
+12-->[:image_picker] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[:google_sign_in] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/google_sign_in/intermediates/library_manifest/release/AndroidManifest.xml:7:5-67
+13-->[:google_sign_in] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/google_sign_in/intermediates/library_manifest/release/AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:24:5-79
+14-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:24:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:25:5-68
+15-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:25:22-65
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:26:22-107
+17    <!--
+18 io.flutter.app.FlutterApplication is an android.app.Application that
+19         calls FlutterMain.startInitialization(this); in its onCreate method.
+20         In most cases you can leave this as-is, but you if you want to provide
+21         additional functionality it is fine to subclass or reimplement
+22         FlutterApplication and put your custom class here.
+23    -->
+24    <application
+24-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:8:5-46:19
+25        android:name="io.flutter.app.FlutterApplication"
+25-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:9:9-57
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.1.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:24:18-86
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:11:9-43
+28        android:label="두두한" >
+28-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:10:9-28
+29        <activity
+29-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:12:9-40:20
+30            android:name="com.example.hanyang_app.MainActivity"
+30-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:13:13-41
+31            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+31-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:16:13-163
+32            android:hardwareAccelerated="true"
+32-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:17:13-47
+33            android:launchMode="singleTop"
+33-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:14:13-43
+34            android:theme="@style/LaunchTheme"
+34-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:15:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:18:13-55
+36
+37            <!--
+38                 Specifies an Android theme to apply to this Activity as soon as
+39                 the Android process has started. This theme is visible to the user
+40                 while the Flutter UI initializes. After that, this theme continues
+41                 to determine the Window background behind the Flutter UI.
+42            -->
+43            <meta-data
+43-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:23:13-26:17
+44                android:name="io.flutter.embedding.android.NormalTheme"
+44-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:24:15-70
+45                android:resource="@style/NormalTheme" />
+45-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:25:15-52
+46            <!--
+47                 Displays an Android View that continues showing the launch screen
+48                 Drawable until Flutter paints its first frame, then this splash
+49                 screen fades out. A splash screen is useful to avoid any visual
+50                 gap between the end of Android's launch screen and the painting of
+51                 Flutter's first frame.
+52            -->
+53            <meta-data
+53-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:32:13-35:17
+54                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+54-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:33:15-79
+55                android:resource="@drawable/launch_background" />
+55-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:34:15-61
+56
+57            <intent-filter>
+57-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:36:13-39:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:37:17-68
+58-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:37:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:38:17-76
+60-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:38:27-74
+61            </intent-filter>
+62        </activity>
+63        <!--
+64             Don't delete the meta-data below.
+65             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+66        -->
+67        <meta-data
+67-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:43:9-45:33
+68            android:name="flutterEmbedding"
+68-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:44:13-44
+69            android:value="2" />
+69-->/Users/inchangchoi/AndroidStudioProjects/hanyang_app/android/app/src/main/AndroidManifest.xml:45:13-30
+70
+71        <service
+71-->[:firebase_auth] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+72            android:name="com.google.firebase.components.ComponentDiscoveryService"
+72-->[:firebase_auth] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+73            android:directBootAware="true"
+73-->[com.google.firebase:firebase-common:19.3.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/30538961310d29838460717453132f3b/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+74            android:exported="false" >
+74-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/d751e1e5368e6ac07484e7b258ca1942/play-services-measurement-api-17.5.0/AndroidManifest.xml:29:13-37
+75            <meta-data
+75-->[:firebase_auth] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+76-->[:firebase_auth] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[:firebase_auth] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+78            <meta-data
+78-->[:cloud_firestore] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+79-->[:cloud_firestore] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-134
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:cloud_firestore] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+81            <meta-data
+81-->[:firebase_storage] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+82-->[:firebase_storage] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:10:17-126
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[:firebase_storage] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+84            <meta-data
+84-->[:firebase_core] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+85                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+85-->[:firebase_core] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[:firebase_core] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+87            <meta-data
+87-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/d751e1e5368e6ac07484e7b258ca1942/play-services-measurement-api-17.5.0/AndroidManifest.xml:30:13-32:85
+88                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+88-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/d751e1e5368e6ac07484e7b258ca1942/play-services-measurement-api-17.5.0/AndroidManifest.xml:31:17-139
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/d751e1e5368e6ac07484e7b258ca1942/play-services-measurement-api-17.5.0/AndroidManifest.xml:32:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-auth:19.3.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/82681f3c0761d655651a14f400b32223/firebase-auth-19.3.1/AndroidManifest.xml:36:13-38:85
+91                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+91-->[com.google.firebase:firebase-auth:19.3.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/82681f3c0761d655651a14f400b32223/firebase-auth-19.3.1/AndroidManifest.xml:37:17-109
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-auth:19.3.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/82681f3c0761d655651a14f400b32223/firebase-auth-19.3.1/AndroidManifest.xml:38:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-installations:16.3.2] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/a6beb7a08bb153d99f4a6b1869466e43/firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
+94                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+94-->[com.google.firebase:firebase-installations:16.3.2] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/a6beb7a08bb153d99f4a6b1869466e43/firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-installations:16.3.2] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/a6beb7a08bb153d99f4a6b1869466e43/firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-storage:19.1.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/3ed8519e9abe4e7cb39c076a2d2afc20/firebase-storage-19.1.1/AndroidManifest.xml:33:13-35:85
+97                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+97-->[com.google.firebase:firebase-storage:19.1.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/3ed8519e9abe4e7cb39c076a2d2afc20/firebase-storage-19.1.1/AndroidManifest.xml:34:17-107
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-storage:19.1.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/3ed8519e9abe4e7cb39c076a2d2afc20/firebase-storage-19.1.1/AndroidManifest.xml:35:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-firestore:21.4.3] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/3ea13b95299e945c4dbecfa9d704f7ef/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:20:13-22:85
+100                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+100-->[com.google.firebase:firebase-firestore:21.4.3] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/3ea13b95299e945c4dbecfa9d704f7ef/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:21:17-111
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-firestore:21.4.3] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/3ea13b95299e945c4dbecfa9d704f7ef/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:22:17-82
+102        </service>
+103
+104        <provider
+104-->[:image_picker] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:9-19:20
+105            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+105-->[:image_picker] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:12:13-82
+106            android:authorities="com.dodo.hanyang_app.flutter.image_provider"
+106-->[:image_picker] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-74
+107            android:exported="false"
+107-->[:image_picker] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+108            android:grantUriPermissions="true" >
+108-->[:image_picker] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:15:13-47
+109            <meta-data
+109-->[:image_picker] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:16:13-18:75
+110                android:name="android.support.FILE_PROVIDER_PATHS"
+110-->[:image_picker] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:17:17-67
+111                android:resource="@xml/flutter_image_picker_file_paths" />
+111-->[:image_picker] /Users/inchangchoi/AndroidStudioProjects/hanyang_app/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:18:17-72
+112        </provider>
+113
+114        <receiver
+114-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:29:9-33:20
+115            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+115-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:30:13-85
+116            android:enabled="true"
+116-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:31:13-35
+117            android:exported="false" >
+117-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:32:13-37
+118        </receiver>
+119
+120        <service
+120-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:35:9-38:40
+121            android:name="com.google.android.gms.measurement.AppMeasurementService"
+121-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:36:13-84
+122            android:enabled="true"
+122-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:37:13-35
+123            android:exported="false" />
+123-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:38:13-37
+124        <service
+124-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:39:9-43:72
+125            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+125-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:40:13-87
+126            android:enabled="true"
+126-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:41:13-35
+127            android:exported="false"
+127-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:42:13-37
+128            android:permission="android.permission.BIND_JOB_SERVICE" />
+128-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/e9973ab53e0e0ab3a5a85762e8cae3ab/play-services-measurement-17.5.0/AndroidManifest.xml:43:13-69
+129
+130        <activity
+130-->[com.google.firebase:firebase-auth:19.3.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/82681f3c0761d655651a14f400b32223/firebase-auth-19.3.1/AndroidManifest.xml:24:9-31:50
+131            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+131-->[com.google.firebase:firebase-auth:19.3.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/82681f3c0761d655651a14f400b32223/firebase-auth-19.3.1/AndroidManifest.xml:25:13-85
+132            android:excludeFromRecents="true"
+132-->[com.google.firebase:firebase-auth:19.3.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/82681f3c0761d655651a14f400b32223/firebase-auth-19.3.1/AndroidManifest.xml:26:13-46
+133            android:exported="true"
+133-->[com.google.firebase:firebase-auth:19.3.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/82681f3c0761d655651a14f400b32223/firebase-auth-19.3.1/AndroidManifest.xml:27:13-36
+134            android:launchMode="singleTask"
+134-->[com.google.firebase:firebase-auth:19.3.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/82681f3c0761d655651a14f400b32223/firebase-auth-19.3.1/AndroidManifest.xml:28:13-44
+135            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+135-->[com.google.firebase:firebase-auth:19.3.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/82681f3c0761d655651a14f400b32223/firebase-auth-19.3.1/AndroidManifest.xml:29:13-102
+136            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+136-->[com.google.firebase:firebase-auth:19.3.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/82681f3c0761d655651a14f400b32223/firebase-auth-19.3.1/AndroidManifest.xml:30:13-72
+137        <activity
+137-->[com.google.android.gms:play-services-auth:16.0.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/21210e1651d82e9448be260a7a7a16e4/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+138            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+138-->[com.google.android.gms:play-services-auth:16.0.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/21210e1651d82e9448be260a7a7a16e4/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+139            android:excludeFromRecents="true"
+139-->[com.google.android.gms:play-services-auth:16.0.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/21210e1651d82e9448be260a7a7a16e4/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+140            android:exported="false"
+140-->[com.google.android.gms:play-services-auth:16.0.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/21210e1651d82e9448be260a7a7a16e4/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+141            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+141-->[com.google.android.gms:play-services-auth:16.0.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/21210e1651d82e9448be260a7a7a16e4/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+142        <!--
+143            Service handling Google Sign-In user revocation. For apps that do not integrate with
+144            Google Sign-In, this service will never be started.
+145        -->
+146        <service
+146-->[com.google.android.gms:play-services-auth:16.0.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/21210e1651d82e9448be260a7a7a16e4/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+147            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+147-->[com.google.android.gms:play-services-auth:16.0.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/21210e1651d82e9448be260a7a7a16e4/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+148            android:exported="true"
+148-->[com.google.android.gms:play-services-auth:16.0.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/21210e1651d82e9448be260a7a7a16e4/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+149            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+149-->[com.google.android.gms:play-services-auth:16.0.1] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/21210e1651d82e9448be260a7a7a16e4/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+150
+151        <provider
+151-->[com.google.firebase:firebase-common:19.3.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/30538961310d29838460717453132f3b/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+152            android:name="com.google.firebase.provider.FirebaseInitProvider"
+152-->[com.google.firebase:firebase-common:19.3.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/30538961310d29838460717453132f3b/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+153            android:authorities="com.dodo.hanyang_app.firebaseinitprovider"
+153-->[com.google.firebase:firebase-common:19.3.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/30538961310d29838460717453132f3b/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+154            android:exported="false"
+154-->[com.google.firebase:firebase-common:19.3.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/30538961310d29838460717453132f3b/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+155            android:initOrder="100" />
+155-->[com.google.firebase:firebase-common:19.3.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/30538961310d29838460717453132f3b/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+156
+157        <activity
+157-->[com.google.android.gms:play-services-base:17.1.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+158            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+158-->[com.google.android.gms:play-services-base:17.1.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+159            android:exported="false"
+159-->[com.google.android.gms:play-services-base:17.1.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+160            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+160-->[com.google.android.gms:play-services-base:17.1.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+161
+162        <meta-data
+162-->[com.google.android.gms:play-services-basement:17.0.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/594a58944738183028b8c515171c6cbb/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+163            android:name="com.google.android.gms.version"
+163-->[com.google.android.gms:play-services-basement:17.0.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/594a58944738183028b8c515171c6cbb/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+164            android:value="@integer/google_play_services_version" />
+164-->[com.google.android.gms:play-services-basement:17.0.0] /Users/inchangchoi/.gradle/caches/transforms-2/files-2.1/594a58944738183028b8c515171c6cbb/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+165    </application>
+166
+167</manifest>
